@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,300&display=swap');
+
+:root {
+    --color: linear-gradient(180deg, rgb(58, 119, 170), rgb(55, 109, 154));
+    --colorhover: linear-gradient(180deg, rgb(63, 126, 178), rgb(71, 132, 182));
+}
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Poppins', sans-serif;
+   color: rgb(0, 0, 0);
+}
+
+body {
+    background-image: linear-gradient(rgb(250,250,250), #f4f4f4);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+button {
+    cursor: pointer;
+    border: 2px solid black;
+    transition: background 0.3s ease-in-out;
+    color: rgb(248, 248, 248);
+}
+
+button:hover {
+    /* transform: scale(1.01); */
+    background: var(--colorhover)
+}
+
+.container {
+    width: 280px;
+    text-align: center;
+    }
+
+.container1 {
+    display: block;
+}
+.container2 {
+    display: none;
+}
+.container3 {
+    display: none;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+
+.start-btn {
+    margin-top: 50px;
+    width: 170px;
+    height: 55px;
+    background-image: var(--color);
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.heading {
+    margin-bottom: 50px;
+    color: black;
+}
+
+
+button[time] {
+    min-width: 65px;
+    min-height: 55px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-image: var(--color);
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+
+button[time]:hover {
+    /* transform: scale(1.01); */
+    background: var(--colorhover)
+}
+
+.div-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+
+
+p button {
+    background-image: var(--color);
+    border-radius: 5px;
+}
+
+.screen {
+    width: 240px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 90px;
+    background-image: linear-gradient(22deg, rgb(90, 176, 246), rgb(45, 114, 170));
+    border-radius: 0px;
+    border: 10px solid black;
+    color: white;
+}
+
+.reset-counter-btn {
+    width: 100px;
+    height: 130px;
+    font-size: 70px;
+    padding-left: 5px;
+    padding-bottom: 8px;
+}
+
+.reload-page-btn {
+    width: 160px;
+    height: 50px;
+    font-size: 20px;
+}
